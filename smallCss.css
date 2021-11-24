@@ -1,0 +1,255 @@
+.name_pict{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+  width: 50%;
+  margin-top: 100px;
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight:bold ;
+}
+.picture{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+#moi{
+    background-image: url(img/sombre.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.profil{
+    height: 100%;
+    background-size: cover; 
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    margin-left: -20px;
+}
+.recherche{
+    width: 100%;
+    margin: 10%;
+    height: 10%;
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content:space-between;
+    border-radius: 5px;
+    
+}
+.inp{
+    background-color: rgb(223, 223, 223);
+    outline: none;
+    border-style: none;
+}
+.srch{
+    background-color: rgb(223, 223, 223);
+    outline: none;
+}
+.btn_envoyer{
+    width: 50px;
+    height: 50px;
+    background-color: #d40a0a;
+    border-radius: 100%;
+    margin-top: -60px;
+    margin-left: 15em;
+    align-self: flex-end;
+    background-size: cover;
+  }
+.taillebigIcon{
+    width: 40px;
+    height: 40px;
+    background-color: #4A90E2;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+  }
+.naissance{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    display: flex;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: white;
+}
+ 
+.competences{
+    width: 100%;
+    background-color: white;
+    
+}
+.icon_check{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+  
+.falculte{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background: white;
+    
+  
+}
+.fac1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.titre_fac{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.specialicon{
+    width: 20px;
+    height: 20px;
+}
+.progresbar{
+    background: #F0F0F0;
+    height: 5px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h4{
+    font-weight: bold;
+}
+
+.potentiel{
+    width: 60%;
+    padding: 0.5%;
+}
+.section_body1{
+    display: flex;
+    flex-flow: column;
+    
+  }
+.expertise{
+    width: 100%;
+    background:#015F9F ;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+  }
+.head{
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 15px;
+    justify-content: space-between;
+    
+  }
+.expert{
+    display: flex;
+    align-items: center;
+   
+  }
+#arange_text{
+    font-size: 17px;
+    font-family: tahoma;
+    margin-left: 20px;
+  }
+#arange{
+    font-size: 17px;
+    font-family: tahoma;
+    margin-left: 20px;
+    color: white;
+  }
+  .expertise_list{
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: column;
+    height: 40%;
+    background: white;
+    padding-inline: 20px;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 3%;
+  }
+  .loisirs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0.5%;
+    
+  }
+.passe_temps{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 2%;
+    justify-content: space-between;
+    padding: 2%;
+    display: flex;
+    flex-flow: column;
+  }
+.language{
+    justify-content: space-between;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 2%;
+  }
+.lang{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+
+@media screen and (max-width: 600px){
+   
+    .potentiel{
+      width: 100%;
+      padding: 0.5%;
+    }
+    .text{
+      color: white;
+      font-size: 13px;
+    }
+    .passe_temps h1{
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .language h1{
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
